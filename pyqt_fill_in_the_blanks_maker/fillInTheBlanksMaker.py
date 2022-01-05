@@ -21,7 +21,6 @@ class FillInTheBlanksMaker(QMainWindow):
         bottomWidget.setLayout(lay)
 
         lay = QVBoxLayout()
-        lay.addWidget(self.__setUnderlineBtn)
         lay.addWidget(bottomWidget)
 
         mainWidget = QWidget()

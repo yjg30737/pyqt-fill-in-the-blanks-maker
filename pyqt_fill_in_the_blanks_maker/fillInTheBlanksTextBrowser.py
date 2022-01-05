@@ -12,7 +12,6 @@ class FillInTheBlanksTextBrowser(QTextBrowser):
         self.setText('Returns a copy of the rectangle that is translated offset.x() '
                      'along the x axis and offset.y() along the y axis, '
                      'relative to the current position.')
-        self.setMouseTracking(True)
 
     def __selectionsInit(self):
         self.__selections = []
@@ -44,10 +43,3 @@ class FillInTheBlanksTextBrowser(QTextBrowser):
     def __setHoverEvent(self, keyword: str):
         doc = self.document()
         cur = QTextCursor()
-
-    def mouseMoveEvent(self, e):
-        cursor = self.cursorForPosition(e.pos())
-        # todo get the word in cursor position
-        print(cursor.position())
-        print(self.cursor().pos())
-        return super().mouseMoveEvent(e)
