@@ -32,3 +32,6 @@ Before
 After
 
 ![image](https://user-images.githubusercontent.com/55078043/148306184-2b3c5002-c38f-45ac-80fa-d1bafc7b6876.png)
+
+## Note
+I'm working on adding hover event feature which makes blank word visible.
