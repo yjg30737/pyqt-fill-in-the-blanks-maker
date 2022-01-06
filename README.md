@@ -8,7 +8,7 @@ PyQt5 >= 5.8
 ```pip3 install git+https://github.com/yjg30737/pyqt-fill-in-the-blanks-maker.git --upgrade```
 
 ## Example
-Code Sample
+### Code Sample
 ```python
 from PyQt5.QtWidgets import QApplication
 from pyqt_fill_in_the_blanks_maker.fillInTheBlanksMaker import FillInTheBlanksMaker
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     app.exec_()
 ```
 
-Result
+### Result
 
 Before
 
